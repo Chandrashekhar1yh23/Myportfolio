@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FileText, Code, Mail } from 'lucide-react';
+import { Code, Mail } from 'lucide-react';
 import { Link } from 'react-scroll';
 import profileImg from '../assets/profile.jpg';
 
@@ -93,31 +93,6 @@ const Hero = () => {
                 }}
               >
                 <Code size={20} /> GitHub
-              </motion.button>
-            </a>
-
-            <a href="/resume.pdf" download style={{ textDecoration: 'none' }}>
-              <motion.button 
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="glass-card"
-                style={{
-                  background: 'transparent',
-                  color: 'white',
-                  padding: '12px 30px',
-                  borderRadius: '30px',
-                  fontSize: '1rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  transition: 'all 0.3s ease'
-                }}
-                onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent-blue)'; e.currentTarget.style.boxShadow = '0 0 15px rgba(0, 240, 255, 0.3)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--glass-border)'; e.currentTarget.style.boxShadow = 'none'; }}
-              >
-                <FileText size={20} /> Download Resume
               </motion.button>
             </a>
 

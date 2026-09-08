@@ -19,3 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 https://myportfolio-eta-blue.vercel.app/ to see my portpolio
 If you have any suggestions or notice anything that could be improved in the README, feel free to let me know. 
 I’d be happy to make the changes
+#Have suggestions or ideas for improvement? Feel free to share your feedback or open an issue.

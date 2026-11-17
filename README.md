@@ -1,4 +1,5 @@
-My Journey: from 1st year to 3rd year in ENG
+My Journey: from 1st year to 3rd year in
+ Btech cse
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.

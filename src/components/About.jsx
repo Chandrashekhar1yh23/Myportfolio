@@ -6,11 +6,7 @@ const About = () => {
   return (
     <section id="about" style={{ 
       padding: '100px 5%', 
-      position: 'relative',
-      backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url("https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1920&q=80")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundAttachment: 'fixed'
+      position: 'relative'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         

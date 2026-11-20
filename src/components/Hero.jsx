@@ -47,11 +47,7 @@ const Hero = () => {
       alignItems: 'center', 
       justifyContent: 'center', 
       padding: '0 5%', 
-      position: 'relative',
-      backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.8), rgba(5, 5, 5, 0.95)), url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundAttachment: 'fixed'
+      position: 'relative'
     }}>
       <div style={{ maxWidth: '1200px', width: '100%', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', zIndex: 10 }}>
         

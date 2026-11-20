@@ -22,6 +22,3 @@ If you have any suggestions or notice anything that could be improved in the REA
 I’d be happy to make the changes
 #Have suggestions or ideas for improvement? Feel free to share your feedback or open an issue.
 
-## Credits
-
-The animated Aurora canvas background is based on [Ambient Canvas Backgrounds](https://github.com/crnacura/AmbientCanvasBackgrounds) by Crnacura and Sean Free, using [Simplex Noise](https://github.com/jwagner/simplex-noise.js) by Jonas Wagner.

@@ -6,7 +6,11 @@ const Contact = () => {
   return (
     <section id="contact" style={{ 
       padding: '100px 5%', 
-      position: 'relative'
+      position: 'relative',
+      backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
     }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         

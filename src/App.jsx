@@ -8,7 +8,6 @@ import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
-import AmbientCanvas from './components/AmbientCanvas';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import './index.css';
 
@@ -39,7 +38,9 @@ function App() {
         }}
       />
 
-      <AmbientCanvas />
+      {/* Background animated blobs */}
+      <div className="blob"></div>
+      <div className="blob blob-2"></div>
 
       <Navbar />
       

@@ -24,7 +24,11 @@ const Timeline = () => {
   return (
     <section id="timeline" style={{ 
       padding: '100px 5%', 
-      position: 'relative'
+      position: 'relative',
+      backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.95)), url("https://images.unsplash.com/photo-1481253127861-534498168948?auto=format&fit=crop&w=1920&q=80")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
     }}>
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
         
